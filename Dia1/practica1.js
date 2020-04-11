@@ -13,5 +13,5 @@ if(planeta == "marte"){
     pesoFinal = peso  * g_jupiter / g_tierra;
     document.write("Tu peso en jupiter es de: " + pesoFinal)
 }else{
-    document.write("Tu peso es de 878787827812828278 loca");
+    document.write("Tu peso es de 878787827812828278 ");
 }
