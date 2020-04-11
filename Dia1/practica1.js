@@ -5,4 +5,4 @@ function saludo(){
 
 var uno = 25
 var dos =15
-document.write(uno > dos ? "es mayor" : "es menor");
+document.write(uno > dos ? "es mayor" : "es menor"); //operador ternario
