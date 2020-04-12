@@ -1,8 +1,21 @@
 var d = document.getElementById("dibujito");
 var lienzo = d.getContext("2d");
+var lineas = 30; 
+var l = 0;
+var yi, xf;
+var colores = "blue";
 
-dibujarLinea("red", 100, 50, 50, 200);
-dibujarLinea("Brue", 0, 0, 20, 300)
+while(l < lineas)
+{
+    yi = 10 * l;
+    xf = 10 * (l + 1);
+    dibujarLinea(colores, 0, yi, xf, 300);
+    l++;
+}
+
+dibujarLinea("red", 1, 1, 1, 300);
+dibujarLinea("red", 1, 299, 299, 299);
+
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal){
     lienzo.beginPath();
