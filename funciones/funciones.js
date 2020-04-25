@@ -59,6 +59,7 @@ function receta(ingrediente1, ingrediente2, ...adicionales){
     console.log(`El ingrediente 1 es ${ingrediente1}`);
     console.log(`El ingresiente 2 es ${ingrediente2}`);
     console.log(`Ingredientes adicionales`, adicionales);
+    console.log(`Ingredientes adicionales`, adicionales);
 }
 
 receta("Pollo", "Tomate", "Papa", "cebolla");
@@ -76,11 +77,14 @@ function cocinar(Ingrediente1, Ingrediente2, Ingrediente3, ...Adicional){
     console.log("Ingrediente2: ", Ingrediente2);
     console.log("Ingrediente3: ", Ingrediente3);
     console.log("Ingredientes adicionales: ", Adicional);
+    console.log(Adicional[1]);
 }
 
 var ingresientesBase = ["Carne", "Cebolla"];
 
-cocinar(ingresientesBase, "Pescado", "Tomate", "Jalapeño");
+cocinar(ingresientesBase, "Pescado", "Tomate", "Jalapeño", "Lechuga");
+
+console.log()
 
 
 // funciones anonimas
