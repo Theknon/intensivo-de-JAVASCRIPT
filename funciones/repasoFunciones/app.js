@@ -1,2 +1,6 @@
-alert("Hola mundo");
-console.log("Buenas")
+
+function suma  (a,b){
+    return a + b;
+}
+
+console.log(suma(7,10));
