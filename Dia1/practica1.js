@@ -1,5 +1,5 @@
 function saludo(){
-    document.write("Hola bebe")
+    document.write("Hola chico kawaii")
 }
 
 
